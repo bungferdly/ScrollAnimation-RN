@@ -1,0 +1,8 @@
+{
+  "editor.cursorBlinking": "solid",
+  "files.autoSave": "off",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "git.ignoreLimitWarning": true,
+  "window.zoomLevel": -1
+}
