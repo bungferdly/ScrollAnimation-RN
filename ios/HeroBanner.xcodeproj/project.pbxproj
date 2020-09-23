@@ -10,7 +10,6 @@
 		00E356F31AD99517003FC87E /* HeroBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HeroBannerTests.m */; };
 		070F842FC7DB49106ADBC86E /* libPods-HeroBanner-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E4372F4BE547371C751A5F /* libPods-HeroBanner-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		198EC8C946E4599B97CBBDDF /* libPods-HeroBanner-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11123234449FA4BC19BE546E /* libPods-HeroBanner-tvOS.a */; };
@@ -19,6 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* HeroBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HeroBannerTests.m */; };
 		3A57732CB6F3A9732DA7DD43 /* libPods-HeroBanner-HeroBannerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB23E70E02B5CDB8C0C13CE1 /* libPods-HeroBanner-HeroBannerTests.a */; };
+		B8630D6D251AE95100019A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8630D6C251AE95100019A92 /* LaunchScreen.storyboard */; };
 		FCCC5F99B349F67FCA164CD7 /* libPods-HeroBanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C2BC96E77089CC8B33B902 /* libPods-HeroBanner.a */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,6 @@
 		13B07F961A680F5B00A75B9A /* HeroBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HeroBanner/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = HeroBanner/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HeroBanner/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HeroBanner/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HeroBanner/main.m; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		37793020509802AC2B3F4118 /* Pods-HeroBanner-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroBanner-tvOS.release.xcconfig"; path = "Target Support Files/Pods-HeroBanner-tvOS/Pods-HeroBanner-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		50FB3A595404224F007883FF /* Pods-HeroBanner-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroBanner-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HeroBanner-tvOSTests/Pods-HeroBanner-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC5D878B531AA994F7A980E9 /* Pods-HeroBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroBanner.debug.xcconfig"; path = "Target Support Files/Pods-HeroBanner/Pods-HeroBanner.debug.xcconfig"; sourceTree = "<group>"; };
+		B8630D6C251AE95100019A92 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HeroBanner/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C2BC96E77089CC8B33B902 /* libPods-HeroBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeroBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB23E70E02B5CDB8C0C13CE1 /* libPods-HeroBanner-HeroBannerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeroBanner-HeroBannerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE44868203E543638833902 /* Pods-HeroBanner-HeroBannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroBanner-HeroBannerTests.debug.xcconfig"; path = "Target Support Files/Pods-HeroBanner-HeroBannerTests/Pods-HeroBanner-HeroBannerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				B8630D6C251AE95100019A92 /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = HeroBanner;
@@ -208,6 +208,7 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				4D46479ACEE6707161754996 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +230,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				350DDD9BC1E20A9D6267669B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,8 +339,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8630D6D251AE95100019A92 /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +389,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		350DDD9BC1E20A9D6267669B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroBanner/Pods-HeroBanner-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroBanner/Pods-HeroBanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D46479ACEE6707161754996 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HeroBanner-HeroBannerTests/Pods-HeroBanner-HeroBannerTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HeroBanner-HeroBannerTests/Pods-HeroBanner-HeroBannerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		569F401D66089223C7144F99 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -565,18 +603,6 @@
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13B07FB21A68108700A75B9A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = HeroBanner;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
